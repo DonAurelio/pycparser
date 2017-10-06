@@ -67,7 +67,7 @@ ast = parser.parse(text, filename='<none>')
 # created by pycparser. See the c_ast.py file for the options you
 # can pass it.
 
-#ast.show(showcoord=True)
+ast.show(showcoord=True)
 
 # OK, we've seen that the top node is FileAST. This is always the
 # top node of the AST. Its children are "external declarations",
